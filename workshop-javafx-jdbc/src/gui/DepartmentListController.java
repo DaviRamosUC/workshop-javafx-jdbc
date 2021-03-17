@@ -34,6 +34,7 @@ import model.services.DepartmentService;
 
 public class DepartmentListController implements Initializable, DataChangeListener {
 
+	@FXML
 	private DepartmentService service;
 
 	@FXML
